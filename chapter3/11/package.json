@@ -1,0 +1,24 @@
+{
+    "name": "chapter1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack --config webpack.config.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "css-loader": "^2.1.0",
+        "file-loader": "^3.0.1",
+        "install": "^0.12.2",
+        "mini-css-extract-plugin": "^0.7.0",
+        "npm": "^6.9.0",
+        "style-loader": "^0.23.1",
+        "url-loader": "^1.1.2",
+        "webpack": "^4.28.1",
+        "webpack-cli": "^3.2.1",
+        "webpack-spritesmith": "^1.0.1"
+    },
+    "dependencies": {}
+}

@@ -1,0 +1,19 @@
+@import '../img/sprite/index.css';
+
+#app {
+    text-align: center;
+    background: url('../img/a7691515.jpg');
+}
+
+.icon {
+	background: url('../img/4197536.png');
+}
+
+.icon1 {
+	background: url('../img/nav_jsds_beta-eeb44d165b8ba37680fdb7e65ae17ae4.png');
+}
+
+.icon2 {
+	height: 100px;
+	background: url('../img/logo_40c4f13.svg')
+}

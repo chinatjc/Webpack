@@ -1,0 +1,36 @@
+{
+    "name": "tangjingchengaaaa",
+    "version": "1.0.0",
+    "description": "build npm package user webpack demo for dive-into-webpack book",
+    "keywords": [
+        "webpack",
+        "npm",
+        "package"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/chinatjc/Webpack/tree/feature/chapter3/chapter3/7"
+    },
+    "main": "lib/index.js",
+    "jsnext:main": "src/index.js",
+    "scripts": {
+        "build": "webpack --config webpack.config.js",
+        "publish": "npm publish ."
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
+        "css-loader": "^2.1.1",
+        "mini-css-extract-plugin": "^0.6.0",
+        "webpack": "^4.29.6",
+        "webpack-cli": "^3.2.3"
+    },
+    "author": "tangjingcheng",
+    "license": "ISC",
+    "license": "ISC",
+    "dependencies": {
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "babel-preset-env": "^1.7.0",
+        "babel-runtime": "^6.26.0"
+    }
+}
